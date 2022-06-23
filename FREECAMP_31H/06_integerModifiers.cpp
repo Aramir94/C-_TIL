@@ -10,11 +10,11 @@
 // signed short short : 2bit
 // unsigned short short int : 2bit
 
-// long : 2bit
-// long long int : 2bit
-// signed long : 2bit
-// signed long long int : 2bit
-// unsigned long long int : 2bit
+// long : 8bit
+// long long int : 8bit
+// signed long : 8bit
+// signed long long int : 8bit
+// unsigned long long int : 8bit
 
 int main(){
 
