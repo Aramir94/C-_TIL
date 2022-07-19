@@ -14,7 +14,7 @@ int main(){
         }
         break;
 
-         case Eraser : {
+        case Eraser : {
             std::cout << "this is Eraser" << std::endl;
         }
         break;
