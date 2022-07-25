@@ -38,5 +38,6 @@ int main(){
     // you can re-allocate the memory again
     p_number4 = new int {20}; // Dynamically allocate space for a single int on the heap
     std::cout << "*p_number4 = " << *p_number4 << std::endl;
+    
     return 0;
 }
