@@ -10,4 +10,7 @@ int main(){
     for( size_t i{0}; i<size; i++){
         std::cout << "value : " << p_score[i] << ":" << *(p_score+i) << std::endl;
     }
+
+    delete[] p_salaries;
+    p_salaries = nullptr;
 }
