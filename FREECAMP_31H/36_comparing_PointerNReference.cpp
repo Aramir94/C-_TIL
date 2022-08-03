@@ -19,6 +19,7 @@ int main(){
     std::cout << "ref_double_value " << ref_double_data << std::endl;
     std::cout << "p_double_value " << p_double_data << std::endl;
     std::cout << "*p_double_value " << *p_double_data << std::endl;
+    std::cout << "*ref_double_value " << &ref_double_data << std::endl;
 
     //Writting through reference
     ref_double_data = 88.88;
